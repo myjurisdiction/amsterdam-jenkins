@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// doing some database stuff
 const { MongoClient } = require("mongodb");
 
 const url = `mongodb://abhishek:happysoul@mongodb:27017`;
