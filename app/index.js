@@ -54,6 +54,7 @@ app.listen(PORT, () => {
   figlet("amsterdam", (err, data) => {
     if (err) return;
     console.log(data);
+    
     console.log(`Server is up and running at PORT:${PORT}`);
   });
 });
